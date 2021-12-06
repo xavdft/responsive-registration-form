@@ -1,0 +1,396 @@
+h1 {
+  text-align: center;
+  background: #2f4f4f;
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+  margin: 0;
+}
+.signup {
+  text-align: center;
+  color: #2f4f4f;
+  margin-bottom: 0px;
+}
+html {
+  overflow: auto;
+   background: white;
+   font-family: 'Signika Negative', sans-serif;
+}
+body {
+  margin: 0;
+}
+
+legend {
+  text-align: left;
+  padding-left: 0;
+  width: 91%;
+  margin-left: 15px;
+}
+.field1 {
+  border: none;
+  margin: 0;
+  padding-left: 0;
+  width: 100%;
+}
+.news {
+  text-align: center;
+  color: #20B2AA;
+  margin: 10px 20px 20px 30px;
+}
+label.topsstyle {
+    margin-bottom: 15px;
+}
+label {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: #008080;
+  display: block;
+  width: 91%;
+  margin-left: 15px;
+}
+.newsletter {
+  text-align: left;
+  color: #191970
+}
+label.options {
+  display: inline;
+}
+p {
+  text-align: center;
+}
+.tops {
+  width: 100%;
+}
+button {
+  text-align: center;
+  padding: 15px 39px 15px 39px;
+  width: 100%;
+  color: orange;
+  border-radius: 5px;
+  background-color: black;
+  width: 90%;
+  margin-left: 19px;
+}
+#name {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  background-color: #e8eeef;
+  outline: 0;
+  padding: 15px 10px 15px 10px;
+  border: none;
+  width: 87%;
+  margin-left: 15px;
+  border-radius: 5px;
+
+}
+#mail {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  background-color: #e8eeef;
+  outline: 0;
+  width: 87%;
+  padding: 15px 10px 15px 10px;
+  border: none;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+#number {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  background-color: #e8eeef;
+  outline: 0;
+  padding: 15px 10px 15px 10px;
+  border: none;
+  width: 87%;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+#address {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  background-color: #e8eeef;
+  outline: 0;
+  padding: 15px 10px 15px 10px;
+  border: none;
+  width: 87%;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+#city {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  background-color: #e8eeef;
+  outline: 0;
+  padding: 15px 10px 15px 10px;
+  border: none;
+  width: 87%;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+#state {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  background-color: #e8eeef;
+  outline: 0;
+  padding: 15px 10px 15px 10px;
+  border: none;
+  width: 92%;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+#zip {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  background-color: #e8eeef;
+  outline: 0;
+  padding: 15px 10px 15px 10px;
+  border: none;
+  margin-bottom: 13px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+select {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  background-color: #e8eeef;
+  width: 91%;
+  outline: 0;
+  padding-bottom: 20px;
+  border: none;
+  margin-left: 15px;
+}
+#tops {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  background-color: #e8eeef;
+  outline: 0;
+  border: none;
+  border-radius: 5px;
+  padding-bottom: 45px;
+  width: 91%;
+  margin-left: 15px;
+
+}
+.copyright {
+  font-style: italic;
+  margin-bottom: 0;
+}
+.field2 {
+  padding-left: 0;
+  border: none;
+  padding-right: 0;
+}
+label {
+  font-size: 14px;
+}
+label.options {
+  left: 50px;
+}
+label.recieve {
+  margin-left: 15px;
+  margin-right: 50px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 17px;
+}
+::placeholder {
+  text-align: right;
+  font-style: italic;
+}
+input {
+  text-align: left;
+}
+input:focus {
+  border: solid 1px blue !important;
+}
+select:focus {
+  border: solid 1px blue !important;
+}
+textarea:focus {
+  border: solid 1px blue !important;
+}
+.legend2 {
+  padding-top: 13px;
+  border-top: solid #2f4f4f 2px;
+  width: 90%;
+  margin-left: 15px;
+}
+legend {
+  color: #2f4f4f;
+  font-weight: 600;
+}
+.border {
+  width: 90%;
+  height: auto;
+  border-top: 4px solid #2f4f4f;
+  padding: 2px;
+  border-bottom: 2px solid #2f4f4f;
+  margin-bottom: 18px;
+  margin-left: 16px;
+}
+#htmlnews {
+  margin-right: 0;
+}
+#javanews {
+  margin-right: 0;
+}
+#cssnews {
+  margin-right: 0;
+}
+#html_radio {
+  margin-right: 0;
+}
+
+
+#text_radio {
+  margin-right: 0;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  div.border {
+    margin: 0 auto;
+    max-width: 60%;
+  }
+  legend {
+    margin-left: 0px;
+  }
+  .legend2 {
+    margin-left: 0px;
+    width: 100%;
+    padding-top: 30px;
+  }
+  div {
+    display: block;
+  }
+  fieldset div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  label {
+    width: 100%;
+  }
+  div.settings {
+    width: 64%;
+    justify-content: initial !important;
+  }
+
+
+  form > fieldset:nth-child(2) > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .news {
+    margin-top: 5px;
+  }
+  fieldset.field1 {
+    margin-top: 40px;
+
+  }
+  p.news {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  h2.signup {
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+
+  label.recieve {
+    margin-left: 0px;
+  }
+  #htmlnews {
+    margin-left: 0px;
+  }
+  #cssnews {
+    margin-left: 0px;
+  }
+  #javanews {
+    margin-left: 0px;
+  }
+  .formatsel {
+    margin-left: 0px;
+  }
+  #html_radio {
+    margin-left: 0px;
+  }
+  #text_radio {
+    margin-left: 0px;
+  }
+  .topsstyle {
+    margin-left: 0px;
+  }
+  label {
+    margin-left: 0px;
+    width: 35%;
+  }
+  label.options {
+    padding-left: 15px;
+  }
+
+
+  #tops {
+    margin-left: 0px;
+    width: 100%;
+  }
+  button {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  div {
+    margin-bottom: 15px;
+  }
+  button {
+    width: 100%;
+  }
+  #name {
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  #mail {
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  #number {
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  #address {
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  #city {
+    margin-left: 0px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  #state {
+    margin-left: 0px;
+    width: 100%;
+
+  }
+  #zip {
+    padding-left: 0px;
+    width: 47%;
+
+  }
+
+
+}
